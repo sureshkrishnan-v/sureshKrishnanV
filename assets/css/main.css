@@ -1,0 +1,21 @@
+:root {
+  --background-color: #1a1a1a;
+  --text-color: #ffffff;
+  --primary-color: #ff0000;
+  --hover-color: #cc0000;
+}
+
+body {
+  background-color: var(--background-color);
+  color: var(--text-color);
+}
+
+a {
+  color: var(--primary-color);
+}
+
+a:hover {
+  color: var(--hover-color);
+}
+
+/* Add more global styles as needed */
