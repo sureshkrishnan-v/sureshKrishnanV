@@ -1,8 +1,11 @@
 <template>
   <div>
-    <span class="portfolio" >Welcome to My PortFolio</span>
+    <NuxtLayout>
+      <NuxtPage />
+    </NuxtLayout>
   </div>
 </template>
+
 
 <style>
 .portfolio {
