@@ -1,33 +1,34 @@
 <template>
-  <nav class="navbar bg-black p-4">
+  <nav class="navbar  p-4">
     <div class="flex items-center justify-between">
       <!-- Brand/Name -->
-      <div class="text-white text-2xl font-semibold tracking-wide">Suresh Krishnan V</div>
+      <div class="text-white text-2xl  font-semibold tracking-wide ml-12">Suresh Krishnan V</div>
       
       <!-- Navigation Links -->
-      <ul class="flex space-x-6">
+      <ul class="flex space-x-6 mr-44">
         <li>
-          <NuxtLink to="/" class="nav-link text-white hover:text-red-500">
+          <NuxtLink to="/" class="nav-link text-white hover:bg-red">
             Home
           </NuxtLink>
         </li>
         <li>
-          <NuxtLink to="/about" class="nav-link text-white hover:text-red-500">
+          <NuxtLink to="/about" class="nav-link text-white hover:bg-red">
             About
           </NuxtLink>
         </li>
         <li>
-          <NuxtLink to="/projects" class="nav-link text-white hover:text-red-500">
+          <NuxtLink to="/projects" class="nav-link text-white hover:bg-red">
             Projects
           </NuxtLink>
         </li>
         <li>
-          <NuxtLink to="/contact" class="nav-link text-white hover:text-red-500">
+          <NuxtLink to="/contact" class="nav-link text-white hover:bg-red">
             Contact
           </NuxtLink>
         </li>
       </ul>
-    </div>
+      
+    </div><div></div>
   </nav>
 </template>
 
