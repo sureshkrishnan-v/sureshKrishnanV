@@ -1,11 +1,11 @@
 <template>
-  <nav class="navbar  p-4">
+  <nav class="navbar bg-black p-4 sticky top-0 z-50">
     <div class="flex items-center justify-between">
       <!-- Brand/Name -->
-      <div class="text-white text-2xl  font-semibold tracking-wide ml-12">Suresh Krishnan V</div>
+      <div ><NuxtLink to="/" class="text-white text-2xl  font-semibold tracking-wide ml-12">Suresh Krishnan V</NuxtLink></div>
       
       <!-- Navigation Links -->
-      <ul class="flex space-x-6 mr-44">
+      <ul class="flex space-x-6 mr-20">
         <li>
           <NuxtLink to="/" class="nav-link text-white hover:bg-red">
             Home

@@ -1,5 +1,5 @@
 <template>
-  <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 p-5">
+  <div class="grid grid-cols-1 md:grid-cols-1 lg:grid-cols-4 gap-6 p-5">
     <div v-for="project in projects" :key="project.id" class="group relative rounded-lg bg-slate-800 shadow-lg hover:scale-105 transition-all">
       <img src="../public/portfolio-background.jpg" alt="Project Screenshot" class="w-full h-48 object-cover rounded-t-lg">
       <div class="p-4">
@@ -28,6 +28,12 @@ const projects = [
     image: "",
     link: "/projects/project2"
   },  {
+    id: 2,
+    title: "Project 2",
+    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus lacinia odio vitae vestibulum.",
+    image: "",
+    link: "/projects/project2"
+  },{
     id: 2,
     title: "Project 2",
     description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus lacinia odio vitae vestibulum.",

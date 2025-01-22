@@ -10,7 +10,11 @@
     "postinstall": "nuxt prepare"
   },
   "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^6.7.2",
+    "@fortawesome/free-brands-svg-icons": "^6.7.2",
+    "@fortawesome/vue-fontawesome": "^3.0.8",
     "@nuxtjs/tailwindcss": "^6.12.2",
+    "gsap": "^3.12.7",
     "nodemailer": "^6.9.16",
     "nuxt": "^3.15.0",
     "typed.js": "^2.1.0",
