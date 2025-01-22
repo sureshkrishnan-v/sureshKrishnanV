@@ -1,7 +1,7 @@
 <template>
   <div class="text-white p-7 pt-36 mx-12 flex flex-col justify-between md:flex-row items-center ">
     <!-- Left Section (Text and Button) -->
-    <div class="md:w-1/2 text-center md:text-left mb-8 md:mb-0" v-scroll-reveal>
+    <div class="md:w-1/2 text-center md:text-left mb-8 md:mb-0" >
       <h1 class="text-5xl font-extrabold text-transparent bg-clip-text text-white">
         Welcome to My Portfolio
       </h1>
